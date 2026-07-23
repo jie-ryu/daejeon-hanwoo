@@ -30,6 +30,12 @@ const GALLERY_IMAGES = [
   { cat:"exterior", thumb:"images/exterior.jpg", full:"images/exterior.jpg", alt:"대전한우 매장 외관" },
   { cat:"exterior", thumb:"images/entrance.jpg", full:"images/entrance.jpg", alt:"매장 입구" },
   { cat:"exterior", thumb:"images/parking.jpg", full:"images/parking.jpg", alt:"이용 가능한 주차장" },
+  { cat:"hanwoo", thumb:"images/hanwoo-bite1.jpg", full:"images/hanwoo-bite1.jpg", alt:"노릇하게 구워진 한우 한 점" },
+  { cat:"table", thumb:"images/banchan-detail3.jpg", full:"images/banchan-detail3.jpg", alt:"깻잎짠지와 무말랭이 밑반찬" },
+  { cat:"table", thumb:"images/banchan-detail4.jpg", full:"images/banchan-detail4.jpg", alt:"나물과 김자반 밑반찬" },
+  { cat:"table", thumb:"images/banchan-detail5.jpg", full:"images/banchan-detail5.jpg", alt:"고들빼기와 무말랭이 밑반찬" },
+  { cat:"table", thumb:"images/banchan-bite1.jpg", full:"images/banchan-bite1.jpg", alt:"젓가락으로 집은 나물 밑반찬" },
+  { cat:"table", thumb:"images/banchan-bite2.jpg", full:"images/banchan-bite2.jpg", alt:"젓가락으로 집은 깻잎짠지" },
 ];
 
 if (typeof module !== "undefined") { module.exports = { GALLERY_IMAGES }; }
