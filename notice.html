@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>공지사항 | 대전한우</title>
+<meta name="description" content="대전한우의 명절 영업 안내, 임시 휴무, 메뉴·가격 변경, 예약 안내 등 공지사항을 확인하세요.">
+<link rel="canonical" href="notice.html">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main id="main">
+  <div class="page-hero">
+    <div class="container">
+      <h1>공지사항</h1>
+      <p>영업 안내, 메뉴·가격 변경, 예약 관련 소식을 확인하세요.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="notice-list" id="noticeFullList"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="mobile-stickybar"></div>
+
+<script src="data/site-config.js"></script>
+<script src="data/menu-data.js"></script>
+<script src="js/common.js"></script>
+<script src="js/page-render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", ()=>{
+    renderNoticeFull("noticeFullList");
+  });
+</script>
+</body>
+</html>
