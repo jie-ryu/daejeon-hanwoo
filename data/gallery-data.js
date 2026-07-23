@@ -36,6 +36,8 @@ const GALLERY_IMAGES = [
   { cat:"table", thumb:"images/banchan-detail5.jpg", full:"images/banchan-detail5.jpg", alt:"고들빼기와 무말랭이 밑반찬" },
   { cat:"table", thumb:"images/banchan-bite1.jpg", full:"images/banchan-bite1.jpg", alt:"젓가락으로 집은 나물 밑반찬" },
   { cat:"table", thumb:"images/banchan-bite2.jpg", full:"images/banchan-bite2.jpg", alt:"젓가락으로 집은 깻잎짠지" },
+  { cat:"hanwoo", thumb:"images/grill-scene1.jpg", full:"images/grill-scene1.jpg", alt:"숯불 위에서 노릇하게 구워지는 한우" },
+  { cat:"table", thumb:"images/table-set3.jpg", full:"images/table-set3.jpg", alt:"정성스럽게 차려진 한 상" },
 ];
 
 if (typeof module !== "undefined") { module.exports = { GALLERY_IMAGES }; }
